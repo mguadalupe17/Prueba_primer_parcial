@@ -1,0 +1,22 @@
+//Guadalupe Chasiquiza 1752701381 mchasiquiza@est.ups.edu.ec
+
+#include "punto.h"
+
+Punto::Punto(){}
+
+Punto::Punto (int x, int y): x(x), y(y){}
+
+int Punto::getX()
+{
+    return x;
+}
+
+int Punto::getY()
+{
+    return y;
+}
+string Punto::to_String()
+{
+    return "COORDENADA EN EL EJE  X: "+to_string(x)
+            +"\nCOORDENADA EN EL EJE  Y: "+to_string(y)+"\n";
+}
